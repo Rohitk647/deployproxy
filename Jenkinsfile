@@ -9,7 +9,7 @@ pipeline {
                 steps 
 			{
                     sh "mvn install " +
-                            "    -Ptest -Denv=${params.apigee_env} -Dorg=${params.apigee_org} " +
+                            "    -Pqa -Denv=${params.apigee_env} -Dorg=${params.apigee_org} " +
                             "    -Dusername=${params.apigee_user} " +
                             "    -Dpassword=${params.apigee_pwd}"
             }
