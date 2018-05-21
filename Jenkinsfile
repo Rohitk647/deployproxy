@@ -1,8 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven'
-        nodejs 'NodeJS'
+        maven 'maven'
     }
     stages {
             stage('Deploy the proxy') 
