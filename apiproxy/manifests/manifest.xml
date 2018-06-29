@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest name="manifest">
-    <Policies/>
+    <Policies>
+        <VersionInfo resourceName="BA_basicAuthentication" version="SHA-512:70688b76cceb90364fac3e658700fb4432426855f4baa6a324ba0362a7874f2bae96dc11eccaa08895d3b3b449584fcda85a62b85d60a2e332427ee68813f03b"/>
+        <VersionInfo resourceName="KVM_getData" version="SHA-512:8b4837e9ebc83beeb7f6131f7ac7554c6c84966fee30f3bac3f55cb4e5ec7e133233634d0421571d3413942b66dbf3d611effdedc426e2ddef7e96486ad81667"/>
+    </Policies>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:00a12a92e7a0b3dab9460087a72e2d152e44ac5bd0f088f2bc1270bb6c8183150b9e988adb84596cce4a82aa7b5e7094e8fb4183935709b3cd7723f817da1fce"/>
+        <VersionInfo resourceName="default" version="SHA-512:0cb24030cb7d588fcaa3c635546ddf0f3b452ba3632310cab2b887e1d1bb3b57f17639f5522719ec243245785d99accaeb66b7ee74f26539f0a3349bbf5a0804"/>
     </ProxyEndpoints>
     <Resources/>
     <SharedFlows/>
     <TargetEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:08dd204624a779800734527c9d2fe766ad775151687cbd0d465d57f6113aaa2a2b0624786239bd87e49963a86bace147540b5b19490cf9c876d31d4223d9bcd4"/>
+        <VersionInfo resourceName="default" version="SHA-512:30ab5dcf18d7c26b5ee748822dc4e61a0b31e61ba6d4cf86751fc57423ba7aa2b807bc4db5ac60211240f68761ff2487948c1d820604982d0e98e21979a07bf1"/>
     </TargetEndpoints>
 </Manifest>

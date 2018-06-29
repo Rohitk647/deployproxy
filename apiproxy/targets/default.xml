@@ -13,6 +13,6 @@
     <Flows/>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>https://mocktarget.apigee.net</URL>
+        <URL>https://apigee-edu-prod.apigee.net/v1/apieatery</URL>
     </HTTPTargetConnection>
 </TargetEndpoint>

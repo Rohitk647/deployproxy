@@ -1,0 +1,15 @@
+[
+    {
+        "entry": [
+            {
+                "name": "username",
+                "value": "foundationUser"
+            },
+            {
+                "name": "password",
+                "value": "Test1234"
+            }
+        ],
+        "name": "creds"
+    }
+]

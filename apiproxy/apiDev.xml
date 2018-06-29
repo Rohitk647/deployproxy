@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="apiDev">
+    <Basepaths>/apidev</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1530042725113</CreatedAt>
+    <CreatedBy>venkatasaik@sidglobal.net</CreatedBy>
+    <Description></Description>
+    <DisplayName>apiDev</DisplayName>
+    <LastModifiedAt>1530042725113</LastModifiedAt>
+    <LastModifiedBy>venkatasaik@sidglobal.net</LastModifiedBy>
+    <ManifestVersion>SHA-512:41535ecaf851286e52e0f1039965ee977bd1b407aa35b77d29be2c75ea12f1a212ddcb4b79b854eed4a84cb067c9faa51cd0514c98c45e79e3db0a13ed037947</ManifestVersion>
+    <Policies>
+        <Policy>BA_basicAuthentication</Policy>
+        <Policy>KVM_getData</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

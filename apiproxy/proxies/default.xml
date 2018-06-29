@@ -10,9 +10,23 @@
         <Request/>
         <Response/>
     </PostFlow>
-    <Flows/>
+    <Flows>
+        <Flow name="Authenticate">
+            <Description/>
+            <Request>
+                <Step>
+                    <Name>KVM_getData</Name>
+                </Step>
+                <Step>
+                    <Name>BA_basicAuthentication</Name>
+                </Step>
+            </Request>
+            <Response/>
+            <Condition>(proxy.pathsuffix MatchesPath "/chefs")</Condition>
+        </Flow>
+    </Flows>
     <HTTPProxyConnection>
-        <BasePath>/demohelloworld</BasePath>
+        <BasePath>/apidev</BasePath>
         <Properties/>
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
